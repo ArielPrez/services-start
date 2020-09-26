@@ -9,7 +9,7 @@ import { AccountsService } from '../services/accounts.service';
   providers: [LoggingService]
 })
 export class AccountComponent {
-  @Input() acc: {name: string, status: string};
+  @Input() accComp: {name: string, status: string};
   @Input() id: number;
 
   constructor(private loggingService: LoggingService,

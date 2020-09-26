@@ -8,8 +8,8 @@
       <!-- <app-new-account (accountAdded)="onAccountAdded($event)"></app-new-account> -->
       <hr>
       <app-account
-        *ngFor="let acc of acc; let i = index"
-        [acc]="acc"
+        *ngFor="let acc of account; let i = index"
+        [accComp]="acc"
         [id]="i"
       ></app-account>
     </div>
