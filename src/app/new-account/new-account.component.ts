@@ -1,7 +1,6 @@
 import { Component} from '@angular/core';
 import { LoggingService } from '../services/logging.service';
 import { AccountsService } from '../services/accounts.service';
-import { stringify } from 'querystring';
 
 @Component({
   selector: 'app-new-account',
